@@ -1,0 +1,341 @@
+html,body{
+    background-image: url(home.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    scroll-behavior: smooth;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* MobileSmall */
+@media screen and (max-width: 375px) {
+
+    p{
+        font-size: 18px;
+        font-weight: 350;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    h4{
+        font-size: 25px;
+    }
+
+    h5{
+        text-align: justify;
+    }
+
+    .top{
+        margin-top: 70px;
+    }
+
+    .swidth {
+        width: 9rem;
+    }
+
+    .sk3{
+        width: 18.5rem;
+    }
+
+    .ewidth{
+        height: auto;
+        width: 17rem;
+    }
+
+    .img-fluid{
+        height: 250px;
+    }
+
+    .padding{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+/* MobileMedium */
+@media screen and (min-width: 375px) and (max-width: 425px) {
+    .swidth {
+        width: 10rem;
+    }
+
+    .sk3{
+        width: 20.5rem;
+    }
+
+    .ewidth{
+        height: auto;
+        width: 19rem;
+    }
+}
+
+/* MobileLarge */
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .swidth {
+        width: 11rem;
+    }
+
+    .sk3{
+        width: 22.5rem;
+    }
+
+    .ewidth{
+        height: 18rem;
+        width: 9rem;
+    }
+
+    .ed3{
+        width: 20rem;
+        height: auto;
+    }
+
+    .pwidth{
+        height: 10rem;
+        width: 20rem;
+    }
+
+    .top{
+        margin-top: 65px;
+    }
+
+    .card{
+        margin-top: 25px;
+    }
+}
+
+/* Tablet768 */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .swidth {
+        width: 13rem;
+    }
+
+    .ewidth{
+        height: auto;
+        width: 23rem;
+    }
+
+    .pwidth{
+        height: 10rem;
+        width: 15rem;
+    }
+
+    .top{
+        margin-top: 60px;
+    }
+
+    .img-fluid{
+        height: 16rem;
+    }
+}
+
+/* Laptop1024 */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .swidth {
+        width: 18rem;
+    }
+
+    .ewidth{
+        height: auto;
+        width: 30rem;
+    }
+
+    .pwidth{
+        height: auto;
+        width: 20rem;
+    }
+
+    .top{
+        margin-top: 70px;
+    }
+
+    .card{
+        margin-top: 35px;
+    }
+
+    .ss-text{
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+
+/* LaptopLarge1440 */
+@media screen and (min-width: 1440px) and (max-width: 2560px) {
+    .swidth {
+        width: 22rem;
+    }
+
+    .ewidth{
+        height: auto;
+        width: 38rem;
+    }
+
+    .pwidth{
+        height: auto;
+        width: 30rem;
+    }
+
+    .top{
+        margin-top: 70px;
+    }
+
+    .card{
+        margin-top: 35px;
+    }
+
+    .ss-text{
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .img-fluid{
+        height: 17rem;
+    }
+}
+
+a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+button{
+    background-color: Transparent;
+    border: solid white;
+    outline:none;
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+}
+
+#submit{
+    width: 10rem;
+    height: 3rem;
+    font-weight: bold;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.align-right{
+    text-align: right;
+}
+
+/* SocialMedia-Icon */
+.fa {
+    padding: 5px;
+    font-size: 10px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30%;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-whatsapp{
+    background: green;
+    color: white;
+}
+
+.container{
+    width: 90%;
+    height: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+}
+
+.sub-heading{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.main-border{
+    border-radius: 30px;
+    border:solid black;
+    border-width:1px;
+}
+
+.name{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.about-para{
+    font-size: 18px;
+    font-weight: 350;
+    text-align: justify;
+}
+
+.bt-radius{
+    border-radius:20px;
+}
+
+.block{
+    display: inline-block;
+}
+
+.card {
+    float:left;
+    margin-top: 15px;
+    background-color: transparent;
+    border-radius: 20px;
+    border-color: black;
+}
+
+.ss-text{
+    font-size: 20px;
+}
+
+.ep-text{
+    font-size: 22px;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 10px;
+    background-color: black;
+}
+
+.bottom{
+    margin-bottom: 0px;
+}
